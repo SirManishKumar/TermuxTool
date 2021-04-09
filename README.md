@@ -1,5 +1,15 @@
 # TermuxTool
-This Tool Is All Time My Favorite. 
+This Tool Is All Time My Favorite.
+
+Hello Friend
+
+You can install this tool to follow these steps-
+
+apt update -y
+
+apt upgrade -y
+
+apt install git -y
 
 git clone https://github.com/SirManishKumar/TermuxTool
 
