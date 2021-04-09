@@ -156,7 +156,6 @@ echo -e "==========================================================
 sleep 3.5
 clear
 git clone https://github.com/MasterDevX/Termux-ADB
-cp Termux-ADB /$HOME
 clear
 echo " "  
 
@@ -178,6 +177,23 @@ echo " "
 
 echo -e "==========================================================
                 PhoneSploit INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+cd TermuxTool
+cp Termux-ADB /$HOME
+rm -rf Termux-ADB
+cp PhoneSploit /$HOME
+rm -rf PhoneSploit
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                ALL TOOLS INSTALLED" |lolcat           
 
 echo -e "==========================================================
 " |lolcat
