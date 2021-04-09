@@ -311,6 +311,19 @@ echo -e "============================================================
 " |lolcat
 sleep 3.5
 clear
+git clone https://github.com/HACK3RY2J/Anon-SMS.git
+clear
+echo " "  
+
+echo " "  
+
+echo -e "============================================================
+                      Anon-SMS INSTALLED" |lolcat           
+
+echo -e "============================================================
+" |lolcat
+sleep 3.5
+clear
 cd TermuxTool
 mv Termux-ADB /data/data/com.termux/files/home
 mv adbfiles /data/data/com.termux/files/home
@@ -324,6 +337,7 @@ mv zphisher /data/data/com.termux/files/home
 mv T-Phish /data/data/com.termux/files/home
 mv sayhellodeepak /data/data/com.termux/files/home
 mv lockphish /data/data/com.termux/files/home
+mv Anon-SMS /data/data/com.termux/files/home
 cd
 clear
 echo " "  
