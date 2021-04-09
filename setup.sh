@@ -44,24 +44,95 @@ echo " "
 echo " "   
 
 echo "========================================================== 
-                 PYTHON.INSTALLED" |lolcat            
+                 PYTHON INSTALLED" |lolcat            
 
 echo -e "==========================================================
 " |lolcat
 pip install lolcat
 sleep 3.5
 clear
-apt install toilet -y
+pkg install python2 -y
 clear
 echo " "  
 
 echo " "  
 
 echo -e "==========================================================
-                TOILET INSTALLED" |lolcat           
+                PYTHON2 INSTALLED" |lolcat           
 
 echo -e "==========================================================
 " |lolcat
+sleep 3.5
+clear
+pkg install git -y
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                GIT INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+pkg install openssl-tool -y
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                OPENSSL INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+pkg install wget -y
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                WGET INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+pip install colorama
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                WGET INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+pkg install php -y
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                PHP INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+
+
+
+
 sleep 3.5
 clear
 cd TERMUX_LOGIN
