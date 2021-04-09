@@ -168,21 +168,6 @@ echo -e "============================================================
 " |lolcat
 sleep 3.5
 clear
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
-unzip ngrok-stable-linux-arm.zip
-chmod +x ngrok
-clear
-echo " "  
-
-echo " "  
-
-echo -e "============================================================
-                         Ngrok INSTALLED" |lolcat           
-
-echo -e "============================================================
-" |lolcat
-sleep 3.5
-clear
 git clone https://github.com/MasterDevX/Termux-ADB
 clear
 echo " "  
@@ -327,18 +312,18 @@ echo -e "============================================================
 sleep 3.5
 clear
 cd TermuxTool
-mv Termux-ADB /$HOME
-mv adbfiles /$HOME
-mv PhoneSploit /$HOME
-mv saycheese /$HOME
-mv AdvPhishing /$HOME
-mv seeker /$HOME
-mv grabcam /$HOME
-mv hacklock /$HOME
-mv zphisher /$HOME
-mv T-Phish /$HOME
-mv sayhellodeepak /$HOME
-mv lockphish /$HOME
+mv Termux-ADB /data/data/com.termux/files/home
+mv adbfiles /data/data/com.termux/files/home
+mv PhoneSploit /data/data/com.termux/files/home
+mv saycheese /data/data/com.termux/files/home
+mv AdvPhishing /data/data/com.termux/files/home
+mv seeker /data/data/com.termux/files/home
+mv grabcam /data/data/com.termux/files/home
+mv hacklock /data/data/com.termux/files/home
+mv zphisher /data/data/com.termux/files/home
+mv T-Phish /data/data/com.termux/files/home
+mv sayhellodeepak /data/data/com.termux/files/home
+mv lockphish /data/data/com.termux/files/home
 cd
 clear
 echo " "  
