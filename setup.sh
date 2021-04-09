@@ -213,9 +213,6 @@ echo -e "==========================================================
 sleep 3.5
 clear
 git clone https://github.com/Technicalheadquarter/saycheese
-cd saycheese
-chmod +x saycheese.sh
-./saycheese.sh
 clear
 echo " "  
 
@@ -229,10 +226,6 @@ echo -e "==========================================================
 sleep 3.5
 clear
 git clone https://github.com/Ignitetch/AdvPhishing
-cd AdvPhishing
-chmod +x *
-bash Android-Setup.sh
-bash AdvPhishing.sh
 clear
 echo " "  
 
@@ -246,9 +239,6 @@ echo -e "==========================================================
 sleep 3.5
 clear
 git clone https://github.com/thewhiteh4t/seeker
-cd seeker
-pip install requests
-python seeker.py -t manual
 clear
 echo " "  
 
@@ -262,8 +252,6 @@ echo -e "==========================================================
 sleep 3.5
 clear
 git clone https://github.com/noob-hackers/grabcam
-cd grabcam
-bash grabcam.sh
 clear
 echo " "  
 
@@ -277,8 +265,6 @@ echo -e "==========================================================
 sleep 3.5
 clear
 git clone https://github.com/noob-hackers/hacklock
-cd hacklock
-bash setup
 clear
 echo " "  
 
@@ -292,8 +278,6 @@ echo -e "==========================================================
 sleep 3.5
 clear
 git clone git://github.com/htr-tech/zphisher.git
-cd zphisher
-bash zphisher.sh
 clear
 echo " "  
 
@@ -307,12 +291,6 @@ echo -e "==========================================================
 sleep 3.5
 clear
 git clone https://github.com/Stephin-Franklin/T-Phish
-cd T-Phish
-unzip T-Phish.zip
-cd T-Phish
-chmod 777 start.sh
-./start.sh
-./phish.sh
 clear
 echo " "  
 
@@ -326,8 +304,6 @@ echo -e "==========================================================
 sleep 3.5
 clear
 git clone https://github.com/deepakverma91123/sayhellodeepak.git
-cd sayhellodeepak
-bash sayhello.sh
 clear
 echo " "  
 
@@ -341,8 +317,6 @@ echo -e "==========================================================
 sleep 3.5
 clear
 git clone https://github.com/kali-linux-tutorial/lockphish
-cd lockphish
-bash lockphish.sh
 clear
 echo " "  
 
