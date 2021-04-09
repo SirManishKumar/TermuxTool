@@ -169,7 +169,6 @@ echo -e "==========================================================
 sleep 3.5
 clear
 git clone https://github.com/01010000-kumar/PhoneSploit
-cp PhoneSploit
 clear
 echo " "  
 
@@ -183,10 +182,8 @@ echo -e "==========================================================
 sleep 3.5
 clear
 cd TermuxTool
-cp Termux-ADB /$HOME
-rm -rf Termux-ADB
-cp PhoneSploit /$HOME
-rm -rf PhoneSploit
+mv Termux-ADB /$HOME
+mv PhoneSploit /$HOME
 clear
 echo " "  
 
