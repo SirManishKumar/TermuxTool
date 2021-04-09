@@ -31,7 +31,7 @@ echo " "
 echo " "  
 
 echo -e "=========================================================
-                   NEOFETCH INSTALLED" |lolcat                
+                       NEOFETCH INSTALLED" |lolcat                
 
 echo -e "==========================================================
 " |lolcat
@@ -43,8 +43,8 @@ echo " "
 
 echo " "   
 
-echo "========================================================== 
-                 PYTHON INSTALLED" |lolcat            
+echo -e "========================================================== 
+                      PYTHON INSTALLED" |lolcat            
 
 echo -e "==========================================================
 " |lolcat
@@ -58,7 +58,7 @@ echo " "
 echo " "  
 
 echo -e "==========================================================
-                PYTHON2 INSTALLED" |lolcat           
+                      PYTHON2 INSTALLED" |lolcat           
 
 echo -e "==========================================================
 " |lolcat
@@ -71,7 +71,7 @@ echo " "
 echo " "  
 
 echo -e "==========================================================
-                GIT INSTALLED" |lolcat           
+                       Git INSTALLED" |lolcat           
 
 echo -e "==========================================================
 " |lolcat
@@ -84,7 +84,7 @@ echo " "
 echo " "  
 
 echo -e "==========================================================
-                OPENSSL INSTALLED" |lolcat           
+                      Openssl INSTALLED" |lolcat           
 
 echo -e "==========================================================
 " |lolcat
@@ -97,7 +97,7 @@ echo " "
 echo " "  
 
 echo -e "==========================================================
-                WGET INSTALLED" |lolcat           
+                       Wget INSTALLED" |lolcat           
 
 echo -e "==========================================================
 " |lolcat
@@ -110,7 +110,7 @@ echo " "
 echo " "  
 
 echo -e "==========================================================
-                WGET INSTALLED" |lolcat           
+                      Colorama INSTALLED" |lolcat           
 
 echo -e "==========================================================
 " |lolcat
@@ -123,7 +123,7 @@ echo " "
 echo " "  
 
 echo -e "==========================================================
-                PHP INSTALLED" |lolcat           
+                         PHP INSTALLED" |lolcat           
 
 echo -e "==========================================================
 " |lolcat
@@ -136,7 +136,20 @@ echo " "
 echo " "  
 
 echo -e "==========================================================
-                CURL INSTALLED" |lolcat           
+                        Curl INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+pkg install zip -y
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                        Zip INSTALLED" |lolcat           
 
 echo -e "==========================================================
 " |lolcat
@@ -149,48 +162,203 @@ echo " "
 echo " "  
 
 echo -e "==========================================================
-                CMATRIX INSTALLED" |lolcat           
+                       Cmatrix INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+unzip ngrok-stable-linux-arm.zip
+chmod +x ngrok
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                         Ngrok INSTALLED" |lolcat           
 
 echo -e "==========================================================
 " |lolcat
 sleep 3.5
 clear
 git clone https://github.com/MasterDevX/Termux-ADB
+cd Termux-ADB
+chmod +x InstallTools.sh
+bash InstallTools.sh
 clear
 echo " "  
 
 echo " "  
 
 echo -e "==========================================================
-                Termux-ADB INSTALLED" |lolcat           
+                       Termux-ADB INSTALLED" |lolcat           
 
 echo -e "==========================================================
 " |lolcat
 sleep 3.5
 clear
 git clone https://github.com/01010000-kumar/PhoneSploit
+cd PhoneSploit
+chmod +x phonesploit.py
 clear
 echo " "  
 
 echo " "  
 
 echo -e "==========================================================
-                PhoneSploit INSTALLED" |lolcat           
+                       PhoneSploit INSTALLED" |lolcat           
 
 echo -e "==========================================================
 " |lolcat
 sleep 3.5
 clear
-cd TermuxTool
-mv Termux-ADB /$HOME
-mv PhoneSploit /$HOME
+git clone https://github.com/Technicalheadquarter/saycheese
+cd saycheese
+chmod +x saycheese.sh
 clear
 echo " "  
 
 echo " "  
 
 echo -e "==========================================================
-                ALL TOOLS INSTALLED" |lolcat           
+                       Saycheese INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+git clone https://github.com/Ignitetch/AdvPhishing
+cd AdvPhishing
+chmod +x *
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                       AdvPhishing INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+git clone https://github.com/thewhiteh4t/seeker
+cd seeker
+pip install requests
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                        Seeker INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+git clone https://github.com/noob-hackers/grabcam
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                       GrabCam INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+git clone https://github.com/noob-hackers/hacklock
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                      HackLock INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+git clone git://github.com/htr-tech/zphisher.git
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                      Zphisher INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+git clone https://github.com/Stephin-Franklin/T-Phish
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                      T-Phish INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+git clone https://github.com/deepakverma91123/sayhellodeepak.git
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                      SayHello INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+git clone https://github.com/kali-linux-tutorial/lockphish
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                      LockPhish INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+
+cd TermuxTool
+mv ngrok /$HOME
+mv Termux-ADB /$HOME
+mv adbfiles /$HOME
+mv PhoneSploit /$HOME
+mv saycheese /$HOME
+mv AdvPhishing /$HOME
+mv seeker /$HOME
+mv grabcam /$HOME
+mv hacklock /$HOME
+mv zphisher /$HOME
+mv T-Phish /$HOME
+mv sayhellodeepak /$HOME
+mv lockphish /$HOME
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                       ALL TOOLS INSTALLED" |lolcat           
 
 echo -e "==========================================================
 " |lolcat
