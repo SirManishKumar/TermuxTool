@@ -24,14 +24,14 @@ echo -e "============================================================
 " |lolcat
 sleep 3.5
 clear
-apt install neofetch -y
+pkg install openssl-tool
 clear
 echo " "  
 
 echo " "  
 
 echo -e "============================================================
-                       NEOFETCH INSTALLED" |lolcat                
+                       Openssl INSTALLED" |lolcat                
 
 echo -e "============================================================
 " |lolcat
@@ -48,7 +48,19 @@ echo -e "============================================================
 
 echo -e "============================================================
 " |lolcat
-pip install lolcat
+sleep 3.5
+clear
+pip install lolcat -y
+clear
+echo " "   
+
+echo " "   
+
+echo -e "============================================================ 
+                      Pip INSTALLED" |lolcat            
+
+echo -e "============================================================
+" |lolcat
 sleep 3.5
 clear
 pkg install python2 -y
@@ -77,14 +89,14 @@ echo -e "============================================================
 " |lolcat
 sleep 3.5
 clear
-pkg install openssl-tool -y
+pkg install openssh-tool -y
 clear
 echo " "  
 
 echo " "  
 
 echo -e "============================================================
-                      Openssl INSTALLED" |lolcat           
+                      Openssh INSTALLED" |lolcat           
 
 echo -e "============================================================
 " |lolcat
