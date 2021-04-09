@@ -129,36 +129,59 @@ echo -e "==========================================================
 " |lolcat
 sleep 3.5
 clear
-
-
-
-
-sleep 3.5
+pkg install curl -y
 clear
-cd TERMUX_LOGIN
-cp login.py /$HOME
-cp bash.bashrc /$HOME
-cd
-chmod +x login.py
-cd ../usr/etc
-rm motd
-cp bash.bashrc /sdcard
-rm bash.bashrc
-cd
-clear
-echo " "     
+echo " "  
 
-echo " "          
+echo " "  
 
 echo -e "==========================================================
-           YOUR OLD BASH.BASHRC FILE IS SAVED IN SDCARD" |lolcat
+                CURL INSTALLED" |lolcat           
 
 echo -e "==========================================================
 " |lolcat
 sleep 3.5
 clear
-cp /data/data/com.termux/files/home/bash.bashrc cd ../usr/etc/
-rm bash.bashrc
+pkg install cmatrix -y
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                CMATRIX INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+git clone https://github.com/MasterDevX/Termux-ADB
+cp Termux-ADB /$HOME
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                Termux-ADB INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
+clear
+git clone https://github.com/01010000-kumar/PhoneSploit
+cp PhoneSploit
+clear
+echo " "  
+
+echo " "  
+
+echo -e "==========================================================
+                PhoneSploit INSTALLED" |lolcat           
+
+echo -e "==========================================================
+" |lolcat
+sleep 3.5
 clear
 toilet -f mono12 3 |lolcat
 sleep 1.5
