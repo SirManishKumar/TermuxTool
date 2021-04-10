@@ -24,7 +24,7 @@ echo -e "============================================================
 " |lolcat
 sleep 3.5
 clear
-pkg install openssl-tool
+pkg install openssl-tool -y
 clear
 echo " "  
 
@@ -63,7 +63,7 @@ echo -e "============================================================
 " |lolcat
 sleep 3.5
 clear
-python3 -m pip install --upgrade pip
+python3 -m pip install --upgrade pip -y
 clear
 echo " "   
 
@@ -84,6 +84,19 @@ echo " "
 
 echo -e "============================================================
                       PYTHON2 INSTALLED" |lolcat           
+
+echo -e "============================================================
+" |lolcat
+sleep 3.5
+clear
+pip2 install requests -y
+clear
+echo " "  
+
+echo " "  
+
+echo -e "============================================================
+                      Pip2 INSTALLED" |lolcat           
 
 echo -e "============================================================
 " |lolcat
@@ -128,7 +141,7 @@ echo -e "============================================================
 " |lolcat
 sleep 3.5
 clear
-pip install colorama
+pip install colorama -y
 clear
 echo " "  
 
