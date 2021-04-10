@@ -17,4 +17,4 @@ cd TermuxTool
 
 bash setup.sh
 
-Now Done!
+That's it your work done
