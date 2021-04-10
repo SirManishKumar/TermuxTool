@@ -63,6 +63,19 @@ echo -e "============================================================
 " |lolcat
 sleep 3.5
 clear
+python3 -m pip install --upgrade pip
+clear
+echo " "   
+
+echo " "   
+
+echo -e "============================================================ 
+                      Python3 INSTALLED" |lolcat            
+
+echo -e "============================================================
+" |lolcat
+sleep 3.5
+clear
 pkg install python2 -y
 clear
 echo " "  
