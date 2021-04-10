@@ -15,6 +15,8 @@ git clone https://github.com/SirManishKumar/TermuxTool
 
 cd TermuxTool
 
+chmod +x *
+
 bash setup.sh
 
 That's it your work done
