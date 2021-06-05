@@ -1,5 +1,5 @@
 #!/bin/bash
-pkg install python
+pkg install python -y
 pip install lolcat
 pkg install figlet
 clear
